@@ -16,6 +16,12 @@
 
 * See changes [here](https://github.com/marbug/test-lint-app/compare/v8.11.4_step-1_create-project...v8.11.4_step-2_generate-home-module)
 
+## Generate home component ##
+
+        ng g component home
+
+* See changes [here](https://github.com/marbug/test-lint-app/compare/v8.11.4_step-2_generate-home-module...v8.11.4_step-3_generate-home-component)
+
 TODO
 
 | Navigation |
