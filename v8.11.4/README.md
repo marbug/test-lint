@@ -84,7 +84,29 @@
 
         Lint errors found in the listed files.
 
-TODO
+## Add component-selector rule ##
+
+* Edit **marbug-app/tslint.json** file and add **component-selector** rule:
+
+             "no-output-rename": true,
+             "use-life-cycle-interface": true,
+             "use-pipe-transform-interface": true,
+        +    "component-selector": [true, "element", "marbug", "kebab-case"],
+             "component-class-suffix": true,
+             "directive-class-suffix": true
+           }
+
+* See changes [here](https://github.com/marbug/test-lint-app/compare/v8.11.4_step-5_change-component-selector-prefix...v8.11.4_step-6_add-component-selector-rule)
+
+* Please, check for lint errors
+
+        npm run lint
+
+    and see error
+
+        ERROR: /Users/marbug/cpp/angular/test-lint-app/marbug-app/src/app/home/home.component.ts[4, 13]: The selector of the component "HomeComponent" should have prefix "app" (https://angular.io/styleguide#style-02-07)
+
+        Lint errors found in the listed files.
 
 | Navigation |
 | ---------- |
