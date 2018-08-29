@@ -1,4 +1,4 @@
-# test-lint-app #
+# Test lint #
 
 This repo has been created to demonstrate and investigate the issue with lint for angular project.
 

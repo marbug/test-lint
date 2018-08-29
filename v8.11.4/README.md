@@ -1,10 +1,10 @@
-# test-lint-app > v8.11.4 #
+# Test lint > v8.11.4 #
 
 ## Create project ##
 
         ng new marbug-app
 
-* See changes [here](https://github.com/marbug/test-lint-app/compare/master...v8.11.4_step-1_create-project)
+* See changes [here](https://github.com/marbug/test-lint/compare/master...v8.11.4_step-1_create-project)
 
 * Please, run
 
@@ -20,7 +20,7 @@
 
         ng g module home
 
-* See changes [here](https://github.com/marbug/test-lint-app/compare/v8.11.4_step-1_create-project...v8.11.4_step-2_generate-home-module)
+* See changes [here](https://github.com/marbug/test-lint/compare/v8.11.4_step-1_create-project...v8.11.4_step-2_generate-home-module)
 
 * Please, run
 
@@ -32,7 +32,7 @@
 
         ng g component home
 
-* See changes [here](https://github.com/marbug/test-lint-app/compare/v8.11.4_step-2_generate-home-module...v8.11.4_step-3_generate-home-component)
+* See changes [here](https://github.com/marbug/test-lint/compare/v8.11.4_step-2_generate-home-module...v8.11.4_step-3_generate-home-component)
 
 * Please, run
 
@@ -53,7 +53,7 @@
               "architect": {
                 "build": {
 
-* See changes [here](https://github.com/marbug/test-lint-app/compare/v8.11.4_step-3_generate-home-component...v8.11.4_step-4_change-prefix)
+* See changes [here](https://github.com/marbug/test-lint/compare/v8.11.4_step-3_generate-home-component...v8.11.4_step-4_change-prefix)
 
 * Please, check for lint errors
 
@@ -72,7 +72,7 @@
                   styleUrls: ['./home.component.css']
                 })
 
-* See changes [here](https://github.com/marbug/test-lint-app/compare/v8.11.4_step-4_change-prefix...v8.11.4_step-5_change-component-selector-prefix)
+* See changes [here](https://github.com/marbug/test-lint/compare/v8.11.4_step-4_change-prefix...v8.11.4_step-5_change-component-selector-prefix)
 
 * Please, check for lint errors
 
@@ -80,7 +80,7 @@
 
     and see error
 
-        ERROR: /Users/marbug/cpp/angular/test-lint-app/marbug-app/src/app/home/home.component.ts[4, 13]: The selector of the component "HomeComponent" should have prefix "app" (https://angular.io/styleguide#style-02-07)
+        ERROR: /Users/marbug/cpp/angular/test-lint/marbug-app/src/app/home/home.component.ts[4, 13]: The selector of the component "HomeComponent" should have prefix "app" (https://angular.io/styleguide#style-02-07)
 
         Lint errors found in the listed files.
 
@@ -96,7 +96,7 @@
              "directive-class-suffix": true
            }
 
-* See changes [here](https://github.com/marbug/test-lint-app/compare/v8.11.4_step-5_change-component-selector-prefix...v8.11.4_step-6_add-component-selector-rule)
+* See changes [here](https://github.com/marbug/test-lint/compare/v8.11.4_step-5_change-component-selector-prefix...v8.11.4_step-6_add-component-selector-rule)
 
 * Please, check for lint errors
 
@@ -104,7 +104,7 @@
 
     and see error
 
-        ERROR: /Users/marbug/cpp/angular/test-lint-app/marbug-app/src/app/home/home.component.ts[4, 13]: The selector of the component "HomeComponent" should have prefix "app" (https://angular.io/styleguide#style-02-07)
+        ERROR: /Users/marbug/cpp/angular/test-lint/marbug-app/src/app/home/home.component.ts[4, 13]: The selector of the component "HomeComponent" should have prefix "app" (https://angular.io/styleguide#style-02-07)
 
         Lint errors found in the listed files.
 
