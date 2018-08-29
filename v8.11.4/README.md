@@ -6,6 +6,12 @@
 
 * See changes [here](https://github.com/marbug/test-lint-app/compare/master...v8.11.4_step-1_create-project)
 
+* Please, run
+
+        npm run lint
+
+    and see no error
+
 ## Go to project folder ##
 
         cd marbug-app
@@ -16,11 +22,23 @@
 
 * See changes [here](https://github.com/marbug/test-lint-app/compare/v8.11.4_step-1_create-project...v8.11.4_step-2_generate-home-module)
 
+* Please, run
+
+        npm run lint
+
+    and see no error
+
 ## Generate home component ##
 
         ng g component home
 
 * See changes [here](https://github.com/marbug/test-lint-app/compare/v8.11.4_step-2_generate-home-module...v8.11.4_step-3_generate-home-component)
+
+* Please, run
+
+        npm run lint
+
+    and see no error
 
 ## Change prefix ##
 
@@ -36,6 +54,12 @@
                 "build": {
 
 * See changes [here](https://github.com/marbug/test-lint-app/compare/v8.11.4_step-3_generate-home-component...v8.11.4_step-4_change-prefix)
+
+* Please, check for lint errors
+
+        npm run lint
+
+    and see no error
 
 TODO
 
