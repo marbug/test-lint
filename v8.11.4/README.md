@@ -61,6 +61,29 @@
 
     and see no error
 
+## Change component selector prefix ##
+
+* Edit **marbug-app/src/app/home/home.component.ts** file and change component selector prefix from **app** to **marbug**:
+
+                @Component({
+        -         selector: 'app-home',
+        +         selector: 'marbug-home',
+                  templateUrl: './home.component.html',
+                  styleUrls: ['./home.component.css']
+                })
+
+* See changes [here](https://github.com/marbug/test-lint-app/compare/v8.11.4_step-4_change-prefix...v8.11.4_step-5_change-component-selector-prefix)
+
+* Please, check for lint errors
+
+        npm run lint
+
+    and see error
+
+        ERROR: /Users/marbug/cpp/angular/test-lint-app/marbug-app/src/app/home/home.component.ts[4, 13]: The selector of the component "HomeComponent" should have prefix "app" (https://angular.io/styleguide#style-02-07)
+
+        Lint errors found in the listed files.
+
 TODO
 
 | Navigation |
