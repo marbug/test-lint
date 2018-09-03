@@ -124,7 +124,6 @@
     "no-output-rename": true,
     "use-life-cycle-interface": true,
     "use-pipe-transform-interface": true,
-    "component-selector": [true, "element", "marbug", "kebab-case"],
     "component-class-suffix": true,
     "directive-class-suffix": true
   }
