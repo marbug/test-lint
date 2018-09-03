@@ -108,6 +108,12 @@
 
         Lint errors found in the listed files.
 
+## Fix lint errors ##
+
+* Remove **component-selector** rule from **marbug-app/tslint.json** file and fix prefix in **marbug-app/src/tslint.json** rule:
+
+* See changes [here](https://github.com/marbug/test-lint/compare/v8.11.4_step-6_add-component-selector-rule...v8.11.4_step-7_fix-rules)
+
 | Navigation |
 | ---------- |
 | [Up](../README.md) |
